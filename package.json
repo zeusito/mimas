@@ -31,7 +31,7 @@
 		"@types/better-sqlite3": "^7.6.13",
 		"@types/node": "^24",
 		"@vitest/browser-playwright": "^4.1.8",
-		"better-auth": "~1.4.21",
+		"better-auth": "~1.6.23",
 		"daisyui": "^5.6.17",
 		"drizzle-kit": "^0.31.10",
 		"drizzle-orm": "^0.45.2",
@@ -51,7 +51,7 @@
 		"uuid": "^14.0.1",
 		"vite": "^8.0.16",
 		"vitest": "^4.1.8",
-		"vitest-browser-svelte": "^2.1.1",
+		"vitest-browser-svelte": "^3.0.0",
 		"zod": "^4.4.3"
 	},
 	"dependencies": {
