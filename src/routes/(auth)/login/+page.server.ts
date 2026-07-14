@@ -9,7 +9,7 @@ export const actions = {
         const result = loginSchema.safeParse(Object.fromEntries(data.entries()));
 
         if (!result.success) {
-            return fail(400, { success: false });
+            return fail(400, { failure: true });
         }
 
         try {
@@ -22,9 +22,9 @@ export const actions = {
             });
         } catch (error) {
             console.error(error);
-            return fail(400, { success: false });
+            return fail(400, { failure: true });
         }
 
-        return redirect(302, '/home');
+        return redirect(302, '/home/dashboard');
     },
 } satisfies Actions;
